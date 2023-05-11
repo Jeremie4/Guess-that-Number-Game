@@ -49,8 +49,13 @@ except:
     pass
     #high_scores_list.append(num_of_guesses)
 
-file = open("C:/Users/azzrrhk/Desktop/Python/Guess-that-Number-Game/high_scores.txt", "w")
-file.close()
+try:
+    file = open("C:/Users/azzrrhk/Desktop/Python/Guess-that-Number-Game/high_scores.txt", "w")
+    file.close()
+except:
+    pass
+
+
 file = open("C:/Users/azzrrhk/Desktop/Python/Guess-that-Number-Game/high_scores.txt", "a")
 
 #high_scores_list = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
